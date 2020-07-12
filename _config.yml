@@ -1,8 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+title: Ding's Blog
+description: My Personal Blog
+author: Ding Zou
+github: https://github.com/dingzou
+about: I'm Programmer for C++ & Python.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -15,16 +15,16 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
+    # - icon: fa-facebook
+    #  link: "#"
+    # - icon: fa-twitter
+    #  link: "#"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/ding-zou-19021a84/"
+    # - icon: fa-stack-exchange
+    #   link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/dingzou"
 
 share:
   twitter_username: github.io
@@ -34,11 +34,11 @@ urls:
     - text: About Me
       url: /about/
     - text: My Projects
-      url: /projects/
-    - text: XML Feed
+    #   url: /projects/
+    # - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://dingzou.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
@@ -47,6 +47,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
+
 
 compress_html:
   clippings: all
